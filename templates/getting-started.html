@@ -29,7 +29,9 @@
         .note { background: rgba(233,69,96,0.2); border: 1px solid #e94560; border-radius: 10px; padding: 1rem; margin-top: 1rem; }
         .note strong { color: #e94560; }
         
-        .screenshot { background: rgba(0,0,0,0.3); border-radius: 10px; padding: 1rem; margin: 1rem 0; text-align: center; color: #94a3b8; font-style: italic; }
+        .screenshot { background: rgba(0,0,0,0.3); border-radius: 10px; padding: 0.5rem; margin: 1rem 0; text-align: center; }
+        .screenshot img { max-width: 100%; border-radius: 8px; }
+        .screenshot-placeholder { background: rgba(0,0,0,0.3); border-radius: 10px; padding: 1rem; margin: 1rem 0; text-align: center; color: #94a3b8; font-style: italic; }
         
         .back-link { display: inline-block; color: #94a3b8; text-decoration: none; margin-bottom: 1rem; }
         .back-link:hover { color: #e94560; }
@@ -62,7 +64,7 @@
             <h2>Go to Kilo.ai</h2>
             <p>Open your web browser and go to <strong>kilo.ai</strong></p>
             <a href="https://kilo.ai" target="_blank" class="link-box">🔗 Visit kilo.ai</a>
-            <div class="screenshot">📸 Screenshot: Kilo.ai homepage</div>
+            <div class="screenshot"><img src="{{ url_for('static', filename='screenshot-kilo-home.jpg') }}" alt="Kilo.ai homepage"></div>
         </div>
         
         <div class="step">
@@ -72,7 +74,7 @@
             <p>• <strong>Email</strong> — regular email and password<br>
             • <strong>GitHub</strong> — if you already have a GitHub account<br>
             • <strong>Google</strong> — sign in with your Google account</p>
-            <div class="screenshot">📸 Screenshot: Sign up form</div>
+            <!-- Screenshot: Sign up form -->
         </div>
         
         <div class="step">
@@ -83,7 +85,7 @@
             <p>• <strong>Telegram</strong> — message the AI like texting a friend<br>
             • <strong>WhatsApp</strong> — if you prefer WhatsApp<br>
             • <strong>Terminal</strong> — use it from command line</p>
-            <div class="screenshot">📸 Screenshot: OpenClaw setup screen</div>
+            <!-- Screenshot: OpenClaw setup screen -->
         </div>
         
         <div class="step">
