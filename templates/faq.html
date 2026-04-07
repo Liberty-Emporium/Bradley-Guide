@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Bradley's AI Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; color: #fff; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        header { text-align: center; padding: 2rem 0; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        h1 span { color: #e94560; }
+        .nav { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .nav a { color: #94a3b8; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 10px; background: rgba(255,255,255,0.1); transition: all 0.2s; }
+        .nav a:hover, .nav a.active { background: #e94560; color: white; }
+        .faq { background: rgba(255,255,255,0.05); border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem; }
+        .faq h2 { color: #e94560; margin-bottom: 0.5rem; }
+        .faq p { color: #cbd5e1; line-height: 1.6; }
+        .answer { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); }
+        .answer p { color: #94a3b8; }
+        .back-link { display: inline-block; color: #94a3b8; text-decoration: none; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to Home</a>
+        <header>
+            <h1>❓ <span>Frequently Asked Questions</span></h1>
+            <p>Common questions about using your AI assistant</p>
+        </header>
+        
+        <nav class="nav">
+            <a href="/getting-started">📋 Getting Started</a>
+            <a href="/daily-activities">✨ What It Can Do</a>
+            <a href="/cheat-sheet">📝 Cheat Sheet</a>
+            <a href="/faq" class="active">❓ FAQ</a>
+        </nav>
+        
+        <div class="faq">
+            <h2>Is it free?</h2>
+            <p>It depends on the plan you choose. Check kilo.ai for current pricing.</p>
+        </div>
+        
+        <div class="faq">
+            <h2>Is it safe?</h2>
+            <div class="answer">
+                <p>Yes! Your AI assistant runs locally on your machine or within your secure account. It doesn't share your data with strangers. Just don't share passwords or personal secrets with it, and you'll be safe.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>Can it do X?</h2>
+            <div class="answer">
+                <p>Probably! The AI is very capable. If it can't do something, it'll tell you. Just ask and see what happens!</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>What if I ask something wrong?</h2>
+            <div class="answer">
+                <p>No problem! Just rephrase your question. The AI will do its best to understand what you mean.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>Does it remember our conversation?</h2>
+            <div class="answer">
+                <p>It remembers within the same conversation, but not across different sessions. Just tell it context if you need to refer back to something.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>Can I use it for work?</h2>
+            <div class="answer">
+                <p>Yes! It can help with emails, documents, research, coding, and much more. It's great for productivity.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>What if it gives wrong information?</h2>
+            <div class="answer">
+                <p>AI can sometimes make mistakes. Double-check important information. If something seems wrong, ask it to clarify or research it yourself.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <h2>How do I get help if stuck?</h2>
+            <div class="answer">
+                <p>Ask Jay! Or check the Kilo documentation at docs.openclaw.ai</p>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <a href="/">← Back to Home</a>
+        </nav>
+    </div>
+</body>
+</html>

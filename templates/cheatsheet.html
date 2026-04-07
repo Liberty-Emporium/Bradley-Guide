@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet | Bradley's AI Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; color: #fff; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        header { text-align: center; padding: 2rem 0; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        h1 span { color: #e94560; }
+        .nav { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .nav a { color: #94a3b8; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 10px; background: rgba(255,255,255,0.1); transition: all 0.2s; }
+        .nav a:hover, .nav a.active { background: #e94560; color: white; }
+        .section { background: rgba(255,255,255,0.05); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .section h2 { color: #e94560; margin-bottom: 1rem; font-size: 1.3rem; }
+        .command { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .command:last-child { border-bottom: none; }
+        .command-text { font-family: monospace; background: rgba(233,69,96,0.2); padding: 0.3rem 0.8rem; border-radius: 6px; color: #e94560; }
+        .command-desc { color: #94a3b8; text-align: right; }
+        .tip { background: rgba(233,69,96,0.1); border-left: 3px solid #e94560; padding: 1rem; margin: 1rem 0; border-radius: 0 10px 10px 0; }
+        .tip strong { color: #e94560; }
+        .back-link { display: inline-block; color: #94a3b8; text-decoration: none; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to Home</a>
+        <header>
+            <h1>📝 <span>Quick Reference</span></h1>
+            <p>Common commands and tips</p>
+        </header>
+        
+        <nav class="nav">
+            <a href="/getting-started">📋 Getting Started</a>
+            <a href="/daily-activities">✨ What It Can Do</a>
+            <a href="/cheat-sheet" class="active">📝 Cheat Sheet</a>
+            <a href="/faq">❓ FAQ</a>
+        </nav>
+        
+        <div class="section">
+            <h2>💬 How to Talk to Your AI</h2>
+            <div class="command">
+                <span class="command-text">Just type naturally</span>
+                <span class="command-desc">No special commands needed</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Ask questions</span>
+                <span class="command-desc">"What is...?", "How do I...?"</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Paste code</span>
+                <span class="command-desc">It can read and analyze code</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Share links</span>
+                <span class="command-desc">It can read web pages</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔧 Useful Commands</h2>
+            <div class="command">
+                <span class="command-text">Explain like I'm 5</span>
+                <span class="command-desc">Simple explanations</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Help me with...</span>
+                <span class="command-desc">Get assistance with a task</span>
+            </div>
+            <div class="command">
+                <span class="command-text">What if...</span>
+                <span class="command-desc">Explore ideas</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Compare X and Y</span>
+                <span class="command-desc">Get comparisons</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Summarize this...</span>
+                <span class="command-desc">Quick summaries</span>
+            </div>
+        </div>
+        
+        <div class="tip">
+            <strong>💡 Pro Tips:</strong><br>
+            • Be specific with your questions for better answers<br>
+            • If the answer isn't right, ask again differently<br>
+            • You can ask it to re-explain if you don't understand
+        </div>
+        
+        <div class="section">
+            <h2>⚠️ What to Avoid</h2>
+            <div class="command">
+                <span class="command-text">Sharing passwords</span>
+                <span class="command-desc">Never share login info</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Personal secrets</span>
+                <span class="command-desc">Keep sensitive info offline</span>
+            </div>
+            <div class="command">
+                <span class="command-text">Sensitive data</span>
+                <span class="command-desc">Don't paste private documents</span>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <a href="/faq">Next: FAQ →</a>
+        </nav>
+    </div>
+</body>
+</html>
